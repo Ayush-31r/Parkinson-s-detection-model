@@ -6,3 +6,6 @@ pyjanitor
 ipykernel
 matplotlib
 scikit-learn
+torch
+torchaudio
+ipywidgets
