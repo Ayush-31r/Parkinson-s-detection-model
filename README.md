@@ -25,8 +25,8 @@ This project explores the detection of **Parkinson’s Disease** from voice reco
 Here are two spectrograms used in the project (one from a Parkinson’s patient and one from a healthy control):
 
 <p align="center">
-  <img src="sample1.png" alt="Spectrogram 1" width="45%"/>
-  <img src="sample2.png" alt="Spectrogram 2" width="45%"/>
+  <img src="Feature-Classification/sample1.png" alt="Spectrogram 1" width="45%"/>
+  <img src="Feature-Classification/sample2.png" alt="Spectrogram 2" width="45%"/>
 </p>
 
 ---
