@@ -13,6 +13,11 @@ This project explores the detection of **Parkinson’s Disease** from voice reco
 
 ---
 
+## 🌐 Live Demo  
+👉 [**FlowCast : Bangalore Travel Time & Fare Predictor**](https://parkinson-s-detection-model-deeplearning.streamlit.app/)
+
+---
+
 ## 📊 Methodology
 1. **Data Preprocessing:** Convert raw audio into spectrograms for visual representation of frequency vs. time.  
 2. **Model:** CNN designed to capture spatial features from spectrograms.  
