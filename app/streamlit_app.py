@@ -4,6 +4,7 @@ import torchaudio
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
+import soundfile as sf
 import tempfile
 import os
 
@@ -113,7 +114,9 @@ if uploaded_file is not None:
 
     st.audio(temp_path)
 
-    waveform, sr = torchaudio.load(temp_path)
+    waveform_data, sr = sf.read(temp_path, dtype='float32')
+    waveform = torch.tensor(waveform_data.T).unsqueeze(0) if waveform_data.ndim == 1 else torch.tensor(waveform_data.T)
+
     if waveform.shape[0] > 1:
         waveform = torch.mean(waveform, dim=0, keepdim=True)
     if sr != sample_rate:
