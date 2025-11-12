@@ -14,7 +14,7 @@ This project explores the detection of **Parkinson’s Disease** from voice reco
 ---
 
 ## 🌐 Live Demo  
-👉 [**FlowCast : Bangalore Travel Time & Fare Predictor**](https://parkinson-s-detection-model-deeplearning.streamlit.app/)
+👉 [**Parkinson's Detector**](https://parkinson-s-detection-model-deeplearning.streamlit.app/)
 
 ---
 
